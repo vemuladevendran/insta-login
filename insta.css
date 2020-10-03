@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa !important;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+
+/* image */
+
+.changing-images {
+    position: relative;
+    bottom: 522px;
+    width: 245px;
+    left: 148px;
+}
+
+
+/* main-container */
+
+.main-container {
+    height: 597px;
+    margin-top: 25px;
+}
+
+.login-container {
+    height: 60%;
+    background-color: white;
+    border: .5px solid #dbdbdb;
+}
+
+
+/* input */
+
+input {
+    width: 258px;
+    height: 36px;
+}
+
+
+/* login-button */
+
+.login-button {
+    border: none;
+    width: 258px;
+    height: 30px;
+    background-color: #b2dffc;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* or-line */
+
+.or-line {
+    width: 75%;
+    margin: auto;
+    border-bottom: none;
+    border-top: 1px solid #dbdbdb;
+}
+
+.or {
+    background-color: white;
+    position: absolute;
+    padding: 3px 10px;
+    left: 45%;
+    top: -16px;
+}
+
+
+/* fb */
+
+.fb-logo {
+    width: 16px;
+    height: 16px;
+}
+
+.forget-link {
+    color: rgb(19, 19, 83);
+    font-size: 13px;
+}
+
+
+/* sign-up */
+
+.sign-up {
+    background-color: white;
+    border: .5px solid #dbdbdb;
+    height: 63px;
+}
+
+.sign-up-link {
+    color: #2795f6;
+}
+
+
+/* app-link */
+
+.app-img img {
+    width: 136px;
+    height: 40px;
+    margin: 5px;
+}
+
+
+/* footer */
+
+.footer-details {
+    display: flex;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    font-size: 11px;
+    margin-left: 80px;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+}
+
+
+/* on mobile */
+
+@media only screen and (max-width: 400px) {
+    .image-container {
+        display: none;
+    }
+    footer {
+        overflow: hidden;
+    }
+    .footer-details {
+        display: none;
+    }
+    body {
+        overflow: hidden;
+    }
+}
